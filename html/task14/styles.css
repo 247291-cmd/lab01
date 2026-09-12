@@ -1,0 +1,41 @@
+﻿.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #4a90d9;
+}
+.square {
+  width: 80px;
+  height: 80px;
+  background: red;
+  transition: transform 0.3s;
+}
+.square:hover {
+  transform: translateX(60px);
+}
+header, footer {
+  background: #1a2744;
+  color: #fff;
+  padding: 1rem;
+}
+nav {
+  display: flex;
+  gap: 1rem;
+  background: #eee;
+  padding: 1rem;
+}
+nav a {
+  color: #1a2744;
+}
+nav a:hover {
+  color: #c45c26;
+}
+#three {
+  background: #fff8e7;
+}
+input[type="email"] {
+  border: 1px solid #1a2744;
+}
+input:focus {
+  outline: 2px solid #c45c26;
+}
